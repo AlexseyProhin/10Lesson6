@@ -13,8 +13,10 @@ https://www.youtube.com/watch?v=qU9xZ6ZjMic&t=237s&ab_channel=QAGURU
 
 Этот тест представить в трех вариантах:
 
-1. Чистый Selenide (с Listener)
+1. Чистый Selenide (с Listener) 
+2. Объявил в классе, формирует  в шагах название степов в отчете 
+3. SelenideLogger.addListener("allure", new AllureSelenide());
 
-2. Лямбда шаги через step (name, () -> {})
+4. Лямбда шаги через step (name, () -> {})
 
-3. Шаги с аннотацией @Step
+5. Шаги с аннотацией @Step
